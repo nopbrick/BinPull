@@ -6,7 +6,7 @@ using System.Threading.Tasks;
 
 namespace BinPull
 {
-    internal class Prog
+    internal class Loader
     {
         public static byte[] LoadURL(string url)
         {

@@ -8,7 +8,7 @@ namespace BinPull
         {
             var dummy = new List<string>(args);
             dummy.RemoveRange(0, 1);
-            Invoker.Run(Invoker.Invoke(Prog.LoadURL(args[0])), dummy.ToArray());
+            Invoker.Run(Invoker.Invoke(Loader.LoadURL(args[0])), dummy.ToArray());
         }
     }
 }
